@@ -856,7 +856,7 @@ Luego de Atacar a Roland,Usa una página de Ataque en Masa que invoca más apoyo
   </PassiveDesc>
   <PassiveDesc ID="605532">
     <Name>Regenerativo</Name>
-    <Desc>Si el Personaje recibio 80 o menos de daño en esta Escena,recupera 10% des HP maxima al final de la Escena.</Desc>
+    <Desc>Si el Personaje recibio 80 o menos de daño en esta Escena,recupera 10% de su HP maxima al final de la Escena.</Desc>
   </PassiveDesc>
    <!-- Estudios Sociales -->
   <!-- Espantapajaros buscando por sabiduria(Scarecrow searching for wisdom) -->
@@ -1054,7 +1054,7 @@ Cuando la fase comienza,Los Bibliotecarios muertos vuelven a la vida con el HP l
   <!--Pajaro Grande -->
   <PassiveDesc ID="805111">
     <Name>La Lampara que Arde por Siempre</Name>
-    <Desc>Desde the first Escena, inflicts a random assistant Bibliotecario with 'Enchanted' cada 3 Escenas. Más Bibliotecarios son afectados con el paso de las Escenas(1-2-2-3).</Desc>
+    <Desc>Desde la primera Escena, infringe a un asistente Bibliotecario aleatorio con 'Enchanted' cada 3 Escenas. Más Bibliotecarios son afectados con el paso de las Escenas(1-2-2-3).</Desc>
   </PassiveDesc>
   <PassiveDesc ID="805112">
     <Name>Oscuridad</Name>
@@ -1246,7 +1246,7 @@ Si este Personaje es suspendido, Las Resistencias de Angela cambian a "Fatal" la
     <Desc>Prioriza atacar Bibliotecarios con efectos de Estado.</Desc>
   </PassiveDesc>
 
-  <!-- 케테르 완전개방-->
+  <!-- Realizacion del piso General-->
   <!-- 플레이어블 앤젤라 -->
   <PassiveDesc ID="1005011">
     <Name>Encarando el Pasado</Name>
@@ -1272,8 +1272,8 @@ Si este Personaje es suspendido, Las Resistencias de Angela cambian a "Fatal" la
 
   <!-- this isn't a beach, it's a bloodbath -->
   <PassiveDesc ID="1005111">
-    <Name>Refracting</Name>
-    <Desc>At the start of each Scene, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0.</Desc>
+    <Name>Refractante</Name>
+    <Desc>Al comienzo de cada Escena, agota todas las páginas en mano y el mazo; añade nuevas páginas a la mano. El costo de estas pasa a ser 0.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="1005112">
     <Name>Cicatrices</Name>
@@ -1287,43 +1287,43 @@ Si este Personaje es suspendido, Las Resistencias de Angela cambian a "Fatal" la
   <!-- heart -->
   <PassiveDesc ID="1005211">
     <Name>Palpitante</Name>
-    <Desc>Al comienzo de cada Escena, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0.</Desc>
+    <Desc>Al comienzo de cada Escena, agota todas las páginas en mano y el mazo; añade nuevas páginas a la mano. El costo de estas pasa a ser 0.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="1005212">
-    <Name>Pulsating Motion</Name>
-    <Desc>Goes on the offensive every 4 Scenes.</Desc>
+    <Name>Moción Palpitante</Name>
+    <Desc>Va a la ofensiva cada 4 Escenas.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="1005213">
-    <Name>Pneumonic Rally</Name>
-    <Desc>After going on the offensive, spawn Lungs of Craving and lose 30 HP until there are 4 other allies at the end of the Scene. If Staggered, the Lungs are spawned when the character recovers from Stagger.</Desc>
+    <Name>Concentración Neumonica</Name>
+    <Desc>Luego de ir a la ofensiva,Genera Pulmones del Anhelo y pierde 30 HP hasta que hayan 4 otros aliados al final de la Escena.Si es Aturdida,Los pulmones son generados cuando el personaje se recupera del aturdimiento.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="1005214">
-    <Name>Aspiration Pneumonia</Name>
-    <Desc>Becomes Staggered after 8 or more allies have been defeated.</Desc>
+    <Name>Pneumonia Aspiratoria</Name>
+    <Desc>Es Aturdida luego de que 8 o más aliados hayan sido derrotados.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="1005215">
-    <Name>Scattered Wishes</Name>
-    <Desc>When Staggered, the amount of 'Hankering' and the character's pattern of behavior are reset.</Desc>
+    <Name>Deseos Esparcidos</Name>
+    <Desc>Al ser aturdida,la cantidad de'Ansia' y el patron de comportamiento son restaurados.</Desc>
   </PassiveDesc>
 
   <!-- lung -->
   <PassiveDesc ID="1005221">
-    <Name>Craving</Name>
-    <Desc>Possesses a unique effect that relates to Aspiration's 'Hankering'.</Desc>
+    <Name>Anhelo</Name>
+    <Desc>Posee un efecto unio que se relaciona al 'Ansia' de la Aspiración.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="1005222">
-    <Name>Fervent Beats</Name>
-    <Desc>If there are two or fewer allied units excluding Aspiration, lose the 'Craving' effect and gain the 'Fervent Beats' status.</Desc>
+    <Name>Ritmos Fervientes</Name>
+    <Desc>Si quedan 2 o menos aliados excluyendo a Aspiración pierde el efecto de 'Ansia' y gana el de 'Ritmos Fervientes'.</Desc>
   </PassiveDesc>
 
   <!-- 피노키오 앤젤라-->
   <PassiveDesc ID="1005311">
-    <Name>Mirroring</Name>
-    <Desc>Copies the Patron Librarian's deck. At the start of each Scene, exhaust all pages in hand and deck; add new pages to hand. Their Cost becomes 0. (Ignores 'A Song of Lies')</Desc>
+    <Name>Espejismo</Name>
+    <Desc>Copia el mazo del Bibliotecario en Jefe.Al comienzo de cada Escena ,Agota su mazo y todas las páginas en mano; Añade nuevas páginas a su máno. Su costo se vuelve 0. (Ignora 'Una Cancion de Mentiras')</Desc>
   </PassiveDesc>
   <PassiveDesc ID="1005312">
     <Name>Mentirosa</Name>
-    <Desc>Starting with the third Scene: every 3 Scenes, inflicts 10 Bind to self and uses 1~2 pages that contain false information (referred to as "Lies").</Desc>
+    <Desc>A partir de la tercera Escena;Cada 3 Escenas Infringe 10 Atadura a si misma y usa 1~2 páginas que contengan información falsa ("Mentiras").</Desc>
   </PassiveDesc>
   <PassiveDesc ID="1005313">
     <Name>Atrapada por la Nariz</Name>
