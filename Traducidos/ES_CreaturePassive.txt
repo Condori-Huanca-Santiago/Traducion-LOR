@@ -182,7 +182,7 @@
   <PassiveDesc ID="501011">
     <Name>Cambio Adverso</Name>
     <Desc>Cuando el medidor de Histeria es llenado, Se transforma. El medidor de Histeria aumenta al perder choques o Al ser atacada por enemigos marcados, y disminuye al ganar choques o atacando personajes parcados. La pantalla se tinta de rosa a medida que el medidor de Histeria es llenado.
-Al final de la Escena,Restaura toda la luz y Saca 2 páginas.</Desc>
+Al final de la Escena,Restaura toda la luz y Roba 2 páginas.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="501012">
     <Name>En Nombre del Odio</Name>
@@ -492,7 +492,7 @@ Al final de la Escena,Restaura toda la luz y Saca 2 páginas.</Desc>
     <Desc>Los objetivos de Gran Ave no pueden ser redireccionados por Bibliotecarios.</Desc>
   </PassiveDesc>
   <PassiveDesc ID="801012">
-    <Name>Una Lampara que no se Apaga Nunca</Name>
+    <Name>La Lampara que Arde por Siempre</Name>
     <Desc>Usa 'Deslumbrar' y cada 3 Escenas, el cual infringe 'Encantado' en un Bibliotecario.Cuando un Bibliotecario es encantado,una copia de 'Jaula de Pájaros' es añadida a la mano de todos los bibliotecarios que no estan encantados.</Desc>
   </PassiveDesc>
    <!--Eyeball Chick(Polluelo ocular)-->
@@ -766,7 +766,7 @@ Si el Personaje no uso la pagina durante las primeras 4 Escenas del combate,esta
   </PassiveDesc>	
   <PassiveDesc ID="604034">
     <Name>Lujuria por la Sangre</Name>
-    <Desc>Si el personaje tiene 0 de Sangre,usa la página de Ataque en Masa: 'Lujuria por la Sangre'.(Tiene un enfriamiento de 3 Escenas.)
+    <Desc>Si el personaje tiene 0 de Sangre,usa la página de Ataque en Masa: 'Lujuria por la Sangre'.(Tiene un enfriamiento de 3 Escenas).
 Si el Personaje no uso la página por 3 Escenas luego de Cambiar de Forma,Sera usado en la 4ta Escena.</Desc>
   </PassiveDesc>
   <!--Murcielago Sanguino(Sanguine Bat)-->
@@ -778,7 +778,7 @@ Si el Personaje no uso la página por 3 Escenas luego de Cambiar de Forma,Sera u
   <!-- Ozma-->
  <PassiveDesc ID="704011">
    <Name>Revivir</Name>
-   <Desc>En la primera Escenas, Usa una página de Combate que despierta a todos los Jacks e infringe Olvido a un Bibliotecario. Despues,sigue un unico patron de comportamiento que cilcla cada 4 Escenas.</Desc>
+   <Desc>En la primera Escena, Usa una página de Combate que despierta a todos los Jacks e infringe Olvido a un Bibliotecario. Despues,sigue un unico patron de comportamiento que cicla cada 4 Escenas.</Desc>
  </PassiveDesc>
  <PassiveDesc ID="704012">
   <Name>Agonia De los Deprivados</Name>
@@ -788,7 +788,6 @@ Si el Personaje no uso la página por 3 Escenas luego de Cambiar de Forma,Sera u
   <Name> El Pesar de los Deprivados</Name>
   <Desc>Luego de que 2 ciclos hayan pasado, todas las resistencias al Aturdimiento cambian a 'Fatal' al comienzo de la siguiente Escenas, y usa una página de Ataque en Masa extremadamente poderosa.</Desc>
 </PassiveDesc>
-  
   <!--Jack-->
     <PassiveDesc ID="704021">
     <Name>Poder Robado</Name>
